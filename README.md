@@ -33,6 +33,7 @@ docker build -f Dockerfile.linux -t dotnetcore-docs-hello-world-linux .
 docker tag dotnetcore-docs-hello-world-windows <your_registry_name>.azurecr.io/dotnetcore-docs-hello-world-linux:latest
 docker push <your_registry_name>.azurecr.io/dotnetcore-docs-hello-world-linux:latest
 ```
+=
 
 # Contributing
 
